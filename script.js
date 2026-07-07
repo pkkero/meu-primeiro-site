@@ -1,7 +1,9 @@
-const curtidas=documnt .getElementById("curtidas")
-curtidas.addEventListener("click",aumentacurtidas)
+const curtidas=document.getElementById("curtidas")
 
-function aumentacurtidas(){
+curtidas.addEventListener("click", aumentaCurtidas)
+
+// função aumentar curtidas
+function aumentaCurtidas(){
     let quantidade =document.querySelector("span")
-    quantidade.textContent++;0
+    quantidade.textContent++;
 }
